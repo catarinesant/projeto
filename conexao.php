@@ -1,7 +1,7 @@
 <?php
 
 // Dados para conectar ao banco de dados
-$host = "localhost";
+$host = "192.168.10.14";
 $port = "5432";
 $dbname = "biblioteca";
 $user = "biblioteca";
