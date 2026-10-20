@@ -118,7 +118,7 @@ A tabela `emprestimos` relaciona cada empréstimo a um livro pelo campo `livro_i
    php -S localhost:8000
    ```
 
-6. Acesse a aplicação em [http://localhost:8000](http://localhost:8000)
+6. Acesse a aplicação em [http://192.168.10.14/projeto/login.php](http://192.168.10.14/projeto/login.php)
 ## Observação
 
 Os comandos de criação do banco e as credenciais acima são exemplos para execução local. Ajuste as configurações de acordo com o ambiente utilizado.
