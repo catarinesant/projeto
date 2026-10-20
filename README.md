@@ -350,32 +350,6 @@ logout.php
 Essa página encerra a sessão do usuário.
 Ao clicar em Sair da conta, a sessão é encerrada e o usuário retorna para a tela de login.
 
-## Organização dos arquivos
-O projeto ficou organizado aproximadamente da seguinte forma:
-biblioteca/
-
-│
-├── index.php
-├── conexao.php
-├── style.css
-│
-├── login.php
-├── cadastro_usuario.php
-├── verificar_login.php
-├── logout.php
-│
-├── cadastrar_livro.php
-├── lista_livros.php
-├── editar_livro.php
-├── excluir_livro.php
-├── pesquisar.php
-├── emprestimos.php
-├── relatorio.php
-│
-└── 
-**outros arquivos necessários
-Essa organização facilita a manutenção e a localização das funcionalidades do sistema.**
-
 ## Estilização
 O sistema recebeu uma identidade visual própria.
 A proposta visual foi baseada em uma aparência:
