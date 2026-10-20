@@ -328,12 +328,29 @@ Pesquisa por título;
 Pesquisa por autor;
 Cadastro de empréstimos;
 Controle de estoque;
+
+COMO FAZER DUMPING DO MEU SERVIDOR:
+
+O dump é um arquivo que guarda a estrutura do banco de dados e os dados das tabelas, para você conseguir recuperar tudo depois.
+
+Passo 1 — Abra o terminal do MobaXterm
+pg_dump -U postgres -h 192.168.10.14 -p 5432 -d biblioteca -F p -f biblioteca.sql
+Esse comando cria um arquivo chamado biblioteca.sql com o conteúdo do banco biblioteca.
+
+Passo 2 — Confira o arquivo
+ls -l biblioteca.sql
+Se aparecer o arquivo, o dump foi criado. Ele ficará no diretório em que você executou o comando.
+
+COMO FAZER O DEPLOY DO MEU SERVIDOR:
+Deploy é publicar seu projeto para que outras pessoas possam acessar pelo navegador, sem precisar abrir o VS Code no seu computador.
+
+
 Devolução de livros;
 Atualização do estoque após devolução;
 Relatório da biblioteca.
 Os testes foram realizados durante a construção do sistema para verificar o funcionamento das funcionalidades.
 
-22. Resultado final
+23. Resultado final
 Ao final do desenvolvimento, foi criado um sistema web para gerenciamento de uma biblioteca, contendo tanto a parte de cadastro e organização dos livros quanto o controle de empréstimos e usuários.
 O sistema permite que o usuário:
 Entre com sua conta;
@@ -349,7 +366,7 @@ Consulte informações através de um relatório;
 Encerre sua sessão.
 O projeto também possui uma interface personalizada em HTML e CSS, buscando unir funcionalidade, organização e uma aparência agradável.
 
-23. Conclusão
+24. Conclusão
 O desenvolvimento do Sistema de Gerenciamento de Biblioteca possibilitou colocar em prática conhecimentos de HTML, CSS, PHP, PostgreSQL, SQL, PDO, formulários, sessões e operações com banco de dados.
 O projeto começou com a ideia de criar uma biblioteca simples e foi sendo desenvolvido com diferentes funcionalidades até chegar a um sistema completo, incluindo autenticação de usuários, gerenciamento de livros, empréstimos, devoluções, pesquisa e relatórios.
 Com isso, o sistema atende às principais necessidades propostas para o gerenciamento de uma biblioteca, mantendo uma estrutura simples e adequada para utilização e futuras melhorias.
