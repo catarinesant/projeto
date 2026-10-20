@@ -2,7 +2,7 @@
 
 session_start();
 
-include("conexao.php");
+include("./conexao.php");
 
 $mensagem = "";
 

@@ -1,10 +1,10 @@
 <?php
 
-include("verificar_login.php");
-include("conexao.php");
+include("./verificar_login.php");
+include("./conexao.php");
 
 
-include("conexao.php");
+include("./conexao.php");
 
 $sql = "SELECT * FROM livros ORDER BY titulo";
 $livros = $pdo->query($sql)->fetchAll(PDO::FETCH_ASSOC);
