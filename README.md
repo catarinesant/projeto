@@ -118,7 +118,7 @@ A tabela `emprestimos` relaciona cada empréstimo a um livro pelo campo `livro_i
    php -S localhost:8000
    ```
 
-6. Acesse a aplicação em [http://192.168.10.14:8000](http://192.168.10.14:8000).
+6. Acesse a aplicação em [http://localhost:8000/projeto/index.php](http://localhost:8000/projeto/index.php).
 
 ## Observação
 
