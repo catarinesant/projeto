@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-=======
->>>>>>> 1e126fffaa5c9ff2d378e3661922400fd0448852
 # Sistema de Gerenciamento de Biblioteca
 
 Sistema web desenvolvido em PHP para organizar o acervo de uma biblioteca e controlar livros, usuários e empréstimos. Permite cadastrar e pesquisar livros, registrar empréstimos e devoluções, acompanhar o estoque e consultar relatórios.
