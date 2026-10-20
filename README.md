@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Sistema de Gerenciamento de Biblioteca
 
 Sistema web desenvolvido em PHP para organizar o acervo de uma biblioteca e controlar livros, usuários e empréstimos. Permite cadastrar e pesquisar livros, registrar empréstimos e devoluções, acompanhar o estoque e consultar relatórios.
@@ -119,7 +118,7 @@ A tabela `emprestimos` relaciona cada empréstimo a um livro pelo campo `livro_i
    php -S localhost:8000
    ```
 
-6. Acesse a aplicação em [http://localhost:8000](http://localhost:8000).
+6. Acesse a aplicação em [http://192.168.10.14:8000](http://192.168.10.14:8000).
 
 ## Observação
 
