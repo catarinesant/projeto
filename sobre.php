@@ -15,7 +15,7 @@ include("verificar_login.php");
 
     <title>Sobre - Catálogo</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/projeto/projetostyle.css">
 
     <style>
 
@@ -231,7 +231,7 @@ include("verificar_login.php");
     </div>
 
 
-    <a class="voltar-sobre" href="index.php">
+    <a class="voltar-sobre" href="/projeto/index.php">
 
         ♡ Voltar para o início
 

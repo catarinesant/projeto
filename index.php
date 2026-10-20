@@ -23,7 +23,7 @@ $livrosDisponiveis = $pdo->query($sql)->fetchColumn();
 
     <title>Biblioteca</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/projeto/style.css">
 
 </head>
 
@@ -33,7 +33,7 @@ $livrosDisponiveis = $pdo->query($sql)->fetchColumn();
 
     <img
         class="logo"
-        src="Logótipo Catoteca_ Gato entre Livros.png"
+        src="/projeto/Logótipo Catoteca_ Gato entre Livros.png"
         alt="Logo da Catoteca"
     >
 
@@ -47,7 +47,7 @@ $livrosDisponiveis = $pdo->query($sql)->fetchColumn();
 
         </div>
 
-        <a href="logout.php" class="botao-sair">
+        <a href="/projeto/logout.php" class="botao-sair">
     ♡ Sair da conta
 </a>
 
@@ -88,23 +88,23 @@ $livrosDisponiveis = $pdo->query($sql)->fetchColumn();
 
         <h2>♡ Menu da Biblioteca</h2>
 
-        <a href="cadastrar_livro.php">
+        <a href="/projeto/cadastrar_livro.php">
             ♡ Cadastrar livro
         </a>
 
-        <a href="lista_livros.php">
+        <a href="/projeto/lista_livros.php">
             ♡ Lista de livros
         </a>
 
-        <a href="pesquisar.php">
+        <a href="/projeto/pesquisar.php">
             ♡ Pesquisar livros
         </a>
 
-        <a href="emprestimos.php">
+        <a href="/projeto/emprestimos.php">
             ♡ Empréstimos
         </a>
 
-        <a href="relatorio.php">
+        <a href="/projeto/relatorio.php">
             ♡ Relatório
         </a>
 
@@ -120,5 +120,5 @@ $livrosDisponiveis = $pdo->query($sql)->fetchColumn();
 <div class="card">
     <h3>Sobre a Catoteca</h3>
     <p>Conheça um pouco mais sobre nossa biblioteca.</p>
-    <a href="sobre.php" class="botao">Saiba mais</a>
+    <a href="/projeto/sobre.php" class="botao">Saiba mais</a>
 </div>

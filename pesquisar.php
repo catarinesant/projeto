@@ -41,7 +41,7 @@ $livros = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
     <title>Pesquisar Livros - Biblioteca</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/projeto/style.css">
 
     <style>
 
@@ -195,7 +195,7 @@ $livros = $stmt->fetchAll(PDO::FETCH_ASSOC);
     </div>
 
 
-    <a class="voltar" href="index.php">
+    <a class="voltar" href="/projeto/index.php">
         ♡ Voltar para o início
     </a>
 

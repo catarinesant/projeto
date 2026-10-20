@@ -71,7 +71,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <title>Criar Conta - Biblioteca</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/projeto/style.css">
 
     <style>
 
@@ -218,7 +218,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             Já possui uma conta?
         </p>
 
-        <a href="login.php">
+        <a href="/projeto/login.php">
             Voltar para o login ♡
         </a>
 

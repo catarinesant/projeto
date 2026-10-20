@@ -75,7 +75,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <title>Editar Livro - Biblioteca</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/projeto/style.css">
 
     <style>
 
@@ -188,7 +188,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </form>
 
 
-        <a class="voltar" href="lista_livros.php">
+        <a class="voltar" href="/projeto/lista_livros.php">
             ♡ Voltar para a lista
         </a>
 

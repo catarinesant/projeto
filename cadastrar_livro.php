@@ -50,7 +50,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <title>Cadastrar Livro - Biblioteca</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/projeto/style.css">
 
     <style>
 
@@ -156,7 +156,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </form>
 
 
-        <a class="voltar" href="index.php">
+        <a class="voltar" href="/projeto/index.php">
             ♡ Voltar para o início
         </a>
 

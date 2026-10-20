@@ -20,7 +20,7 @@ $livros = $pdo->query($sql)->fetchAll(PDO::FETCH_ASSOC);
 
     <title>Lista de Livros - Biblioteca</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/projeto/style.css">
 
 </head>
 
@@ -39,7 +39,7 @@ $livros = $pdo->query($sql)->fetchAll(PDO::FETCH_ASSOC);
 
     <div class="lista">
 
-        <a class="cadastrar" href="cadastrar_livro.php">
+        <a class="cadastrar" href="/projeto/cadastrar_livro.php">
             ♡ Cadastrar novo livro
         </a>
 
@@ -90,14 +90,14 @@ $livros = $pdo->query($sql)->fetchAll(PDO::FETCH_ASSOC);
 
                         <a
                             class="editar"
-                            href="editar_livro.php?id=<?php echo $livro["id"]; ?>"
+                            href="/projeto/editar_livro.php?id=<?php echo $livro["id"]; ?>"
                         >
                             Editar
                         </a>
 
                         <a
                             class="excluir"
-                            href="excluir_livro.php?id=<?php echo $livro["id"]; ?>"
+                            href="/projeto/excluir_livro.php?id=<?php echo $livro["id"]; ?>"
                             onclick="return confirm('Tem certeza que deseja excluir este livro?');"
                         >
                             Excluir
@@ -114,7 +114,7 @@ $livros = $pdo->query($sql)->fetchAll(PDO::FETCH_ASSOC);
     </div>
 
 
-    <a class="inicio" href="index.php">
+    <a class="inicio" href="/projeto/index.php">
         ♡ Voltar para o início
     </a>
 

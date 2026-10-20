@@ -67,7 +67,7 @@ $livros = $pdo->query($sql)->fetchAll(PDO::FETCH_ASSOC);
 
     <title>Relatório - Biblioteca</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/projeto/style.css">
 
     <style>
 
@@ -341,7 +341,7 @@ $livros = $pdo->query($sql)->fetchAll(PDO::FETCH_ASSOC);
 
 
 
-    <a class="voltar" href="index.php">
+    <a class="voltar" href="/projeto/index.php">
         ♡ Voltar para o início
     </a>
 
