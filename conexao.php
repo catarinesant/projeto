@@ -1,11 +1,11 @@
 <?php
 
 // Dados para conectar ao banco de dados
-$host = "192.168.10.14";
+$host = "localhost";
 $port = "5432";
 $dbname = "biblioteca";
-$user = "postgres";
-$password = "ca201003";
+$user = "biblioteca";
+$password = "biblioteca";
 
 //"testa a conexao com o postgres
 try {
